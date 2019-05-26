@@ -114,13 +114,18 @@ ul.listDanhMuc li a {
     margin-bottom: 10px;
 }
 
-.hinhLon {
+.hinhLon,.hinhNho {
     border-radius: 5px;
     border: 1px solid #0096ff;
     overflow: auto;
     margin-bottom: 10px;
     height: 270px;
     width: 270px;
+}
+
+.hinhNho{
+    height: 100px;
+    width: 100px;
 }
 
 .themSanPham button.btn.btn-primary {
@@ -144,4 +149,71 @@ ul.listDanhMuc li a {
 
 .quanLyDanhMuc .xuLy .edit:hover,.quanLyDanhMuc .xuLy .delete:hover {
     color: #d01dd8;
+}
+
+#motAnhNho{
+    float: left;
+    list-style: none;
+    height: 100px;
+    width: 100px;
+}
+
+#listAnhNho{
+    overflow: hidden;
+}
+
+.footer .container-fluid {
+    background: #4c2496;
+    padding: 30px;
+    color: white;
+}
+
+.header-footer {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #e3ffdc;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+.quanLyDonHang h3 {
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #d64702;
+    border-bottom: 1px solid #0992f6;
+}
+
+.motHinhNho {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #0096ff;
+    border-radius: 3px;
+    overflow: hidden;
+    float: left;
+    margin: 5px;
+}
+
+.motDonHang {
+    background: #ffbd03;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sanPhamDonHang,.diaChiGiaoHang,.tongDonHang {
+    background: #00000038;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
 }

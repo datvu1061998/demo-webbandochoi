@@ -230,6 +230,7 @@ ul.listDanhMuc li a {
     overflow: hidden;
     height: 80px;
     display: inline-block;
+    position: relative;
 }
 
 .hinhNho .left, .hinhNho .right {
@@ -408,7 +409,7 @@ button.tiepTucMuaHang, button.thanhToan {
     color: #0992f6;
 }
 
-.btn-XacNhanDonHang{
+.btn-XacNhanDonHang {
     border: none;
     background: #ff5505;
     color: white;
@@ -417,4 +418,66 @@ button.tiepTucMuaHang, button.thanhToan {
     box-shadow: 2px 2px 2px black;
     cursor: pointer;
     margin-bottom: 20px;
+}
+
+.ul-list-hinhNho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+}
+
+.footer .container-fluid {
+    background: #4c2496;
+    padding: 30px;
+    color: white;
+}
+
+.header-footer {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #e3ffdc;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+.motSanPham strike {
+    color: #df0303;
+    font-weight: bold;
+}
+
+.thongTinCaNhan, .thongTinDiaChi,.editTaiKhoan {
+    padding: 65px;
+    background: #8b553c69;
+    box-shadow: 10px 10px 20px;
+}
+
+a.chinhSua {
+    text-decoration: none;
+    padding-top: 4px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 3px solid #24a7c1;
+    height: 26px;
+}
+
+.listDonHang {
+    background: #8b553c69;
+    box-shadow: 10px 10px 20px;
+    padding: 20px;
+}
+
+.motDonHang {
+    background: #4fb39c;
+    padding: 20px;
 }

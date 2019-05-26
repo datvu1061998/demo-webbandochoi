@@ -99,92 +99,77 @@
     </div>
     <!-- hết header -->
     <div class="my-content">
-        <div class="offset-sm-3  col-sm-8">
-            <div class="duongDan">
-                <a href="">Trang chủ </a>»
-                <a href="">Vỉ đồ chơi mô hình Pokemon bằng nhựa 24 con (5cm)</a>
-            </div>
-            <div class="row thongtinsanpham">
-                <div class="col-sm-5 hinhSanPham">
-                    <div class="hinhlon">
-                        <img class="h-100"
-                            src="images/024-462-vi-do-choi-mo-hinh-pokemon-bang-nhua-24-con-5-cm-600x600.jpg" alt="">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center hinhNho">
-                        <i class="fas fa-angle-left left"></i>
-                        <div class="list-HinhNho">
-                            <ul class="ul-list-hinhNho">
-                                <li class="motHinhNho">
-                                    <div>
-                                        <img src="images/024-462-vi-do-choi-mo-hinh-pokemon-bang-nhua-24-con-5-cm-600x600.jpg"
-                                            alt="" class="img-fluid">
-                                    </div>
-                                </li>
-                                <li class="motHinhNho">
-                                    <div>
-                                        <img src="images/024-462-vi-do-choi-mo-hinh-pokemon-bang-nhua-24-con-5-cm-3.jpg"
-                                            alt="" class="img-fluid">
-                                    </div>
-                                </li>
-                                <li class="motHinhNho">
-                                    <div>
-                                        <img src="images/024-462-vi-do-choi-mo-hinh-pokemon-bang-nhua-24-con-5-cm-4.jpg"
-                                            alt="" class="img-fluid">
-                                    </div>
-                                </li>
-                                <li class="motHinhNho">
-                                    <div>
-                                        <img src="images/024-462-vi-do-choi-mo-hinh-pokemon-bang-nhua-24-con-5-cm-4.jpg"
-                                            alt="" class="img-fluid">
-                                    </div>
-                                </li>
-                            </ul>
+        <div class="offset-sm-3  col-sm-8 list-SanPham">
+            <div class="noiDungGioHang">
+                <h3>Quản lý tài khoản</h3>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-sm-5 thongTinCaNhan">
+                        <div class="row">
+                            <h4><b>Thông tin cá nhân</b> </h4>
+                            <a href="" class="chinhSua">Chỉnh sửa</a>
                         </div>
-                        <i class="fas fa-angle-right right"></i>
+                        <div class="ten"><b>Tên:</b> Nguyễn B</div>
+                        <div class="gioiTinh"><b>Giới tính:</b>Nam</div>
+                        <div class="email"><b>Email:</b> nguyenb@gmail.com</div>
+                        <div class="ngaySinh"><b>Ngày sinh:</b> 12-12-2000</div>
+                    </div>
+                    <div class="col-sm-5 thongTinDiaChi">
+                        <div class="row">
+                            <h4><b> Địa chỉ</b></h4>
+                            <a href="" class="chinhSua">Chỉnh sửa</a>
+                        </div>
+                        <div class="diaChi"><b>Địa chỉ:</b> 32-34 đường số 12 khu phố 5
+                            Hồ Chí Minh - Quận Thủ Đức - Phường Hiệp Bình Chánh</div>
+                        <div class="soDienThoai"><b>Số điện thoại:</b> (+84) 0345146700</div>
                     </div>
                 </div>
-                <!-- hết hình sản phẩm -->
-                <div class="col-sm-7 chiTietSanPham">
-                    <div class="tenSanPham">Vỉ đồ chơi mô hình Pokemon bằng nhựa 24 con (5cm)</div>
-                    <div class="nhaSanXuat">NHÀ SẢN XUẤT: <a href="">ĐỒ CHƠI TRUNG QUỐC</a></div>
-                    <div class="maSanPham">MÃ SẢN PHẨM: <a href="">024-462</a></div>
-                    <div class="tinhTrang">TÌNH TRẠNG: <span>29</span></div>
-                    <div class="gia">GIÁ: <span>100.000 VNĐ</span></div>
-                    <div class="soLuong">Số lượng:
-                        <input class="form-control" type="number" value="1" id="example-number-input">
-                    </div>
-                    <button class="col-sm-5 themVaoGio"><i class="fas fa-shopping-cart mr-1"></i>Thêm vào giỏ</button>
-                    <button class="col-sm-5 muaNgay"><i class="far fa-credit-card mr-1"></i> Mua ngay</button>
+                <div class="col-sm-12 listDonHang my-5">
+                    <h4><b>Danh sách đơn đặt hàng</b></h4>
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Đơn hàng số #</th>
+                                <th scope="col">Ngày đặt hàng</th>
+                                <th scope="col">Sản phẩm</th>
+                                <th scope="col">Tổng cộng</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">216483753765812</th>
+                                <td>03/03/2019</td>
+                                <td>abc</td>
+                                <td>338.097 ₫</td>
+                                <td><a href="">Quản lý</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">216481592265812</th>
+                                <td>03/03/2019</td>
+                                <td>Thornton</td>
+                                <td>408.500 ₫</td>
+                                <td><a href="">Quản lý</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">213075610665812</th>
+                                <td>03/01/2019</td>
+                                <td>
+                                    <ul>
+                                        <li style="list-style: none;">xyz</li>
+                                        <li style="list-style: none;">wffgh</li>
+                                    </ul>
+                                </td>
+                                <td>300.000 ₫</td>
+                                <td><a href="" style="text-decoration: none">Quản lý</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <!-- hết chi tiết sản phẩm -->
             </div>
-            <!-- hết thông tin sản phẩm -->
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active moTa" id="nav-home-tab" data-toggle="tab" href="#nav-home"
-                        role="tab" aria-controls="nav-home" aria-selected="true">Mô Tả</a>
-                    <a class="nav-item nav-link  huongDanMuaHang" id="nav-profile-tab" data-toggle="tab"
-                        href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Hướng dẫn mua
-                        hàng</a>
-                </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <p>Vỉ đồ chơi mô hình Pokemon bằng nhựa 24 con (5cm) là loại đồ chơi mô hình các chú pokemon được
-                        thiết kế với màu sắc tươi sáng, nhỏ nhắn, chân thật chắc chắn sẽ là món đồ chơi Pokemon được các
-                        bé yêu thích bộ phim hoạt hình này, muốn sưu tập cho mình những chú Pokemon dễ thương nhất. Sản
-                        phẩm dành cho các bé từ 5 tuổi trở lên.
-                    </p>
-                    <p>Chất liệu : Nhựa.</p>
-                    <p>Xuất Xứ: Trung Quốc.</p>
-                    <p>Bộ sản phẩm gồm 24 con Pokemon khác nhau. Kiểu dáng random tùy theo đợt hàng về.</p>
-                    <p>Kích cỡ: 5 cm.</p>
-                    <p>Trọng lượng sản phẩm: 250 gram</p>
-                    <p>Trọng lượng đóng gói: 500 gram</p>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-            </div>
+
+            <button class="btn btn-warning" style="position: absolute;top:20px;right:0"><b>Đổi mật khẩu</b> </button>
         </div>
+
     </div>
     <div class="footer">
         <div class="container-fluid">
